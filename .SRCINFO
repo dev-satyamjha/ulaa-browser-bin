@@ -1,0 +1,15 @@
+pkgbase = ulaa-browser-bin
+	pkgdesc = An ad-free privacy first browser with minimal design bundled with sophisticated technology to make browsing experience smoother, safer, and secure.
+	pkgver = 2.36.1
+	pkgrel = 1
+	url = https://ulaa.com
+	changelog = CHANGELOG
+	arch = x86_64
+	provides = ulaa-browser-stable
+	conflicts = ulaa-browser
+	conflicts = ulaa-bin
+	options = !debug
+	source_x86_64 = Ulaa-Browser-Bin-v2.36.1-1.deb::https://downloads.zohocdn.com/ulaa-browser/release/linux/stable/Ulaa-Browser-Bin-v2.36.1-amd64.deb
+	sha256sums_x86_64 = 10eae0b9dcbf35a6ccfe34f74bb146386a1ca9b585d5bddf80f3f0d0a5501027
+
+pkgname = ulaa-browser-bin
