@@ -1,3 +1,5 @@
+# Maintainer: Satyam Jha <satyam_jha at zohomail dot in>
+# Maintainer: Harsh Narayan Jha <harshnj at proton dot me>
 pkgname=ulaa-browser-bin
 _pkgname=Ulaa-Browser
 pkgver=2.36.2
