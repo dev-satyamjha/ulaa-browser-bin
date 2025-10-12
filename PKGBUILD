@@ -1,6 +1,6 @@
 pkgname=ulaa-browser-bin
 _pkgname=Ulaa-Browser
-pkgver=2.36.1
+pkgver=2.36.2
 pkgrel=1
 pkgdesc="An ad-free privacy first browser with minimal design bundled with sophisticated technology to make browsing experience smoother, safer, and secure."
 arch=(x86_64)
@@ -20,7 +20,7 @@ install=
 changelog=CHANGELOG
 source_x86_64=(${_pkgname}-v${pkgver}-${pkgrel}.deb::https://downloads.zohocdn.com/ulaa-browser/release/linux/stable/${_pkgname}-v${pkgver}-amd64.deb)
 noextract=()
-sha256sums_x86_64=('10eae0b9dcbf35a6ccfe34f74bb146386a1ca9b585d5bddf80f3f0d0a5501027')
+sha256sums_x86_64=('9fcfb050e492aceffff1c2257d61f94d4275bc2c651ae396e4a879e2187ab972')
 validpgpkeys=()
 
 prepare() {
