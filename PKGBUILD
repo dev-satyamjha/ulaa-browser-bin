@@ -2,7 +2,7 @@
 # Maintainer: Harsh Narayan Jha <harshnj at proton dot me>
 pkgname=ulaa-browser-bin
 _pkgname=Ulaa-Browser
-pkgver=2.36.2
+pkgver=2.36.3
 pkgrel=1
 pkgdesc="An ad-free privacy first browser with minimal design bundled with sophisticated technology to make browsing experience smoother, safer, and secure."
 arch=(x86_64)
@@ -22,7 +22,7 @@ install=
 changelog=CHANGELOG
 source_x86_64=(${_pkgname}-v${pkgver}-${pkgrel}.deb::https://downloads.zohocdn.com/ulaa-browser/release/linux/stable/${_pkgname}-v${pkgver}-amd64.deb)
 noextract=()
-sha256sums_x86_64=('9fcfb050e492aceffff1c2257d61f94d4275bc2c651ae396e4a879e2187ab972')
+sha256sums_x86_64=('ec0e0f9f16ddcadc1e2efc62574e73c4b782ba329c28dc703957e35fe89c73bf')
 validpgpkeys=()
 
 prepare() {
